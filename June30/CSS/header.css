@@ -1,0 +1,107 @@
+html{
+  scroll-behavior: smooth;
+}
+header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  font-family: roboto, arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  z-index: 10000;
+}
+.header-bottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.left-side-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 0;
+  margin-left: 20px;
+}
+.header-logo-content{
+  margin-right: 10px;
+}
+.header-logo{
+  height: 70px;
+}
+.logo-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: roboto, arial;
+  font-weight: light;
+  color: rgb(27, 101, 128);
+  margin-right: 40px;
+}
+.logo-text a{
+  text-decoration: none;
+  color: rgb(27, 101, 128);
+}
+.logo-text h1{
+  font-size: 50px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.logo-text p{
+  font-size: 7px;
+  margin-top: -5px;
+}
+.middle-side-header{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-left: -50px;
+  margin-bottom: -10px;
+}
+.middle-side-header ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.middle-side-header a{
+  margin-right: 15px;
+  font-size: 12px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+}
+.right-side-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: -10px;
+}
+.right-side-header a{
+  text-decoration: none;
+  font-family: roboto, arial;
+  font-size: 12px;
+  font-weight: bolder;
+  color: rgb(48, 48, 48);
+  margin-right: 10px;
+}
+.search-logo{
+  height: 22px;
+  margin-right: 10px
+}
+.donate-box{
+  background-color: transparent;
+  text-align: center;
+  padding: 10px 50px;
+  border: 1.5px solid blue;
+  margin-right: 20px;
+  cursor: pointer;
+}
